@@ -87,6 +87,8 @@ or run
 | vinceliuice / [Graphite-gtk-theme](https://github.com/vinceliuice/Graphite-gtk-theme) |
 | yeyushengfan258 / [Citrus-icon-theme](https://github.com/yeyushengfan258/Citrus-icon-theme) |
 
+> [Config Sample](https://github.com/samwhelp/lingmo-adjustment/tree/main/prototype/main/style-config/switch/Graphite/Graphite-Dark-with-icon-Citrus-Dark-Red/asset/overlay/etc/skel)
+
 
 
 
