@@ -7,16 +7,6 @@
 
 
 
-## Subject
-
-* [Project](#project)
-* [Usage](#usage)
-* [Theme Source](#theme-source)
-* [Link](#link)
-
-
-
-
 ## Project
 
 > The project `Lingmo OS / live-build-config` is building skeleton.
@@ -40,6 +30,12 @@
 
 
 ### Respin
+
+| Link | GitHub |
+| ---- | ------ |
+| [lingmo-live-build-respin-theme-lingmo-icon-citrus](https://samwhelp.github.io/lingmo-live-build-respin-theme-lingmo-icon-citrus/) | [GitHub](https://github.com/samwhelp/lingmo-live-build-respin-theme-lingmo-icon-citrus) |
+| [lingmo-live-build-respin-theme-lingmo-icon-oneui](https://samwhelp.github.io/lingmo-live-build-respin-theme-lingmo-icon-oneui/) | [GitHub](https://github.com/samwhelp/lingmo-live-build-respin-theme-lingmo-icon-oneui) |
+
 
 | Link | GitHub |
 | ---- | ------ |
@@ -83,11 +79,27 @@ or run
 
 | Theme Source |
 | ------------ |
-| vinceliuice / [Graphite-kde-theme](https://github.com/vinceliuice/Graphite-kde-theme) |
-| vinceliuice / [Graphite-gtk-theme](https://github.com/vinceliuice/Graphite-gtk-theme) |
+| vinceliuice / [Orchis-kde](https://github.com/vinceliuice/Orchis-kde) |
+| vinceliuice / [Orchis-theme](https://github.com/vinceliuice/Orchis-theme) |
 | yeyushengfan258 / [Citrus-icon-theme](https://github.com/yeyushengfan258/Citrus-icon-theme) |
 
+
 > [Config Sample](https://github.com/samwhelp/lingmo-adjustment/tree/main/prototype/main/style-config/switch/Graphite/Graphite-Dark-with-icon-Citrus-Dark-Red/asset/overlay/etc/skel)
+
+
+> Adjust: Citrus-red-dark / [index.theme](https://github.com/samwhelp/lingmo-live-build-respin-theme-graphite/blob/main/asset/overlay/usr/share/icons/Citrus-red-dark/index.theme#L4)
+
+``` ini
+[Icon Theme]
+Inherits=Numix-Circle,Numix,Papirus-Dark,lingmo-dark,Crule-dark,Adwaita,hicolor
+```
+
+> Adjust: Citrus-red / [index.theme](https://github.com/samwhelp/lingmo-live-build-respin-theme-graphite/blob/main/asset/overlay/usr/share/icons/Citrus-red/index.theme#L4)
+
+``` ini
+[Icon Theme]
+Inherits=Numix-Circle-Light,Numix-Light,Papirus-Light,lingmo-light,Crule,Adwaita,hicolor
+```
 
 
 
